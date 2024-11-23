@@ -53,6 +53,6 @@ if 6 in A:
 else: 
      print(False) # False
      
-# length of an array
+# length of an array - O(1)
 
 print(len(A)) # 4
