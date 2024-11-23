@@ -52,3 +52,7 @@ if 6 in A:
      print(True)
 else: 
      print(False) # False
+     
+# length of an array
+
+print(len(A)) # 4
