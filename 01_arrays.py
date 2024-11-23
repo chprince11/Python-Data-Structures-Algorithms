@@ -21,3 +21,34 @@ vi.  Random access              | O(1)
 vii. Checking if element exists | O(n)
 
 """
+
+A = [1,2,3]
+# printing an array
+print(A) # [1, 2, 3]
+
+# Append - Insert element at end of array - On average: O(1)
+A.append(5)
+print(A) # [1, 2, 3, 5]
+
+# Pop - Deleting the last element - O(1)
+A.pop()
+print(A) # [1, 2, 3]
+
+# Insert ( not at end of array) - O(n)
+A.insert(2, 5)
+print(A) # [1, 2, 5, 3]
+
+# Modify an element - O(1)
+A[0] = 7
+print(A) # [7, 2, 5, 3]
+
+# Accessing element given index i
+print(A[2]) # 5
+
+if 7 in A: 
+     print(True) # True
+     
+if 6 in A: 
+     print(True)
+else: 
+     print(False) # False
