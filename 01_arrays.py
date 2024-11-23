@@ -20,7 +20,4 @@ v.   Modifying an element       | O(1)
 vi.  Random access              | O(1)
 vii. Checking if element exists | O(n)
 
-# Strings:
--
-
 """
