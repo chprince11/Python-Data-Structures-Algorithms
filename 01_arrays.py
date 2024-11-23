@@ -4,7 +4,7 @@ Static arrays:
 - They are mutable objects, which means they are changeable. 
 - Can't change the size, but could change at particular index.
 - Can check a value in an array.
-- Python generally have like static arrays.
+- Python generally don't have like static arrays.
 
 # Dynamic arrays:
 - Also called list in Python.
